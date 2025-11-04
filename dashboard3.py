@@ -101,7 +101,7 @@ def pick_column(df, candidates, default=None):
 # Interface
 # ==========================
 
-st.title("📦 Dashboard Integrado de Vendas de Peças — JV Peças")
+st.title("📦 Dashboard Integrado de Vendas de Peças — E-commerce")
 st.markdown("Envie o arquivo **original** (.csv). Agora com cálculo exato e formatação brasileira.")
 
 uploaded = st.file_uploader("Envie o arquivo CSV de vendas", type=["csv"])
@@ -190,3 +190,4 @@ if modelo_sel:
 
 st.header('📋 Tabela completa de peças por modelo')
 st.dataframe(pecas_freq, use_container_width=True)
+
